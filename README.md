@@ -1,5 +1,5 @@
 # Wordle-AI
-A decent AI that solves daily "Wordle" puzzles. Works with different websites with similar wordlists,.
+A decent AI that solves daily "Wordle" puzzles. Works with different websites with similar wordlists.
 
 When prompted with "Word:" enter the word you used for your last guess on Wordle. 
 Ex -- bagel [Note: You can leave this and the status blank to receive a word recommendation]
