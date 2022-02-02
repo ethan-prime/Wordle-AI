@@ -8,7 +8,7 @@ When prompted with "Status:" enter the status [using characters: c (for correct)
 Ex -- (let's say in our guess "bagel" that b and a were in the right spot, g and e were absent, and l was present somewhere) -- ccaap
 
 The bot will then recommend a word for you to use. 
-[Note: You don't have to use the recommendation--you can skip--but you must enter the word you used to receiving a better recommendation]
+[Note: You don't have to use the recommendation--you can skip--but you must enter the word you used to receive a better recommendation]
 
 When prompted with "Found? (y):" you can click ENTER or type any key EXCEPT y to continue guessing. y will trigger the AI to stop executing the script.
 
