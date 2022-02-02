@@ -48,10 +48,7 @@ def update(word, status):
     prompt = input("Found (y)?: ")
     if prompt != 'y':
         update(input('Word: '), input('Status: '))
-    #elif prompt == 'wl':
-    #    print(word_list)
-    #    update(input('Word: '), input('Status: '))
-
+ 
 def remove_words_c(letter, index):
     pop_list_wl = []
     pop_list_sol = []
