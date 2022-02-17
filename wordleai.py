@@ -132,16 +132,4 @@ def compare(guess, solution):
             response.append('a')
     return response
 
-def AI():
-    tries = 0
-    solution = sol[random.randint(0,len(sol)-1)]
-    while len(word_list) != 1:
-        guess = word_list[random.randint(0,len(word_list)-1)]
-        response = compare(guess, solution)
-        update(guess, response)
-        tries += 1
-    
-    print('[{} Tries] Word: {}'.format(tries, word_list[0]))
-    return tries
-
 update(input('Word: '), input('Status: '))
